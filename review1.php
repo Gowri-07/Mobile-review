@@ -9,7 +9,7 @@ if (isset($_POST['submit']))
   $query="insert into comments values ('$_SESSION[username]', '$_SESSION[dname]','$comments','$rating')";
   $table=mysqli_query($con,$query); 
   header("location:review.php?dname=$_SESSION[dname]");
-            }
+}
 
 
 
