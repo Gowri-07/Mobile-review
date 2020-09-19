@@ -33,7 +33,8 @@ if(isset($_POST['login']))
     header("location:login1.php? Invalid=INVALID USERNAME AND PASSWORD");
  }
 }
-else{
+else
+{
     echo"not working";
 }
 
